@@ -20,7 +20,7 @@ docker run -d --name rm mysql-container -p 3306:3306 -v ./site/db/data:/var/lib/
 
 
 
-docker exec -i mysql-container mysql -uroot -pmudar123 < site/db/script.sql
+docker exec -i mysql-container mysql -uroot -pmysql123 < site/db/script.sql
 
 
 docker exec -it mysql-container /bin/bash
