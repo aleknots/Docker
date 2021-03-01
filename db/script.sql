@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS programadorabordo;
-USE programadorabordo;
+CREATE DATABASE IF NOT EXISTS tabelacursos;
+USE tabelacursos;
 
 CREATE TABLE IF NOT EXISTS products (
   id INT(11) AUTO_INCREMENT,
